@@ -5,7 +5,7 @@ import AdoptionRequest from "../components/others/dashboard/rightSection/adoptio
 import DonationCampaigns from "../components/others/dashboard/rightSection/donationCampaigns/DonationCampaigns";
 import Donations from "../components/others/dashboard/rightSection/donations/Donations";
 import RedirectUserTologinWraper from "../components/wraper/RedirectUserTologinWraper";
-import PetForm from "../components/shared/petForm";
+import PetForm from "../components/shared/PetForm";
 import DonationForm from "../components/shared/DonationForm";
 
 export default function Dashboard() {

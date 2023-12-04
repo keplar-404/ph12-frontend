@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-axios.defaults.baseURL = "http://127.0.0.1:5000";
+axios.defaults.baseURL = "https://pet-adoption-donation.onrender.com/";
 
 // Request interceptor to add access token and refresh token to the request body
 axios.interceptors.request.use(
