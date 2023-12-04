@@ -134,7 +134,7 @@ export default function BasicTable({ rerender, data, columns, type }) {
   ];
 
   return (
-    <div className="w3-container h-screen  overflow-scroll mt-4">
+    <div className=" h-screen  overflow-scroll mt-4">
       <table className="w3-table-all">
         <thead>
           {table.getHeaderGroups().map((headerGroup) => (
