@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Baloo Bhaijaan 2', sans-serif;
+font-family: 'Cabin', sans-serif; */
+
+:root {
+  background: #fef2f2;
+}
+
+.balboo {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+.cabin {
+  font-family: "Cabin", sans-serif;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 0.875rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(98deg, #fa5a22 3.19%, #fe5629 105.28%);
+  color: #fff;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01875rem;
+}
+
+.responsive {
+  @apply sm:w-[90dvw] md:w-[80dvw] xl:w-[80dvw] 2xl:w-[1368px];
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(18.5px);
+}
+
+.hero-title {
+  color: #000;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: 3.1875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.03188rem;
+  text-transform: uppercase;
+}
+
+.hero-sub-title {
+  color: #6e6a6b;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.category-card-title {
+  color: #000;
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+}
+
+.flex-center {
+  @apply flex w-full justify-center items-center;
+}
+
+.gg{
+  background-image: url("action.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+}
