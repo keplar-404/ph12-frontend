@@ -16,7 +16,7 @@ export default function LayoutMain() {
           <Navbar />
         </nav>
 
-        <main className="w-full flex flex-col justify-center items-center">
+        <main className="w-full h-fit flex flex-col justify-center items-center">
           <Outlet />
         </main>
 

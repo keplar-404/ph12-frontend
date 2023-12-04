@@ -13,7 +13,7 @@ export default function PetCard({ data }) {
       <img
         src={data.petimages[0]}
         alt={data.petname}
-        className="w-full h-auto"
+        className="w-full h-[20rem]"
       />
       <CardContent>
         <p>

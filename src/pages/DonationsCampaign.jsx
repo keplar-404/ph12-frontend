@@ -38,7 +38,7 @@ export default function DonationsCampaign() {
           ) : (
             <>
               {/* <div className="w-full"> */}
-              <div className="mt-[5rem] w-full h-screen place-content-center grid  grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-[5rem] mb-[5rem] w-full place-content-center grid  grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {donationsCampaigns
                   .sort((a, b) => new Date(b.dateTime) - new Date(a.dateTime))
                   .map((data, index) => (

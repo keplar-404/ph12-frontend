@@ -67,6 +67,7 @@ export default function TableActionBtn({ data, name, bg, rerender }) {
         `Donation campaign is successfully ${name}. Due to server low connection ui changes slowly please visit other tabs or reload the page`,
         { duration: 6000 }
       );
+      await rerender((value) => (value += 1));
     } else if ((name = "Refund")) {
       await refund(userData.id, data, data.donationId);
     }

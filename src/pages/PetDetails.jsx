@@ -42,9 +42,9 @@ export default function PetDetails() {
             <span className="font-bold">Pet listing date:</span>{" "}
             {getDate(data.dateTime)}
           </p>
-<div className="mt-[2rem]">
-          <AdoptdModal data={data} />
-</div>
+          <div className="m-[2rem]">
+            <AdoptdModal data={data} />
+          </div>
         </div>
       </div>
     </RedirectUserTologinWraper>

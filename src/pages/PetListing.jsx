@@ -11,7 +11,6 @@ export default function PetListing() {
   const [petsData, setPetsData] = useState("loading");
   const location = useLocation();
   const data = location.state;
-  
 
   const getData = async () => {
     const _data = await getAll();
@@ -23,7 +22,7 @@ export default function PetListing() {
       const re = petsData.filter((_data) => _data.petType == data);
       // console.log(re)
       setPetsData(re);
-      return
+      return;
     }
 
     await setPetsData(petsData);

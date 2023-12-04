@@ -50,9 +50,15 @@ export default function DonationCampaignModal({ data }) {
     const currentDate = new Date();
     const lastDateOfDonation = new Date(data.lastDateOfDonation);
   
-    console.log(data.completed || data.pause || currentDate >= lastDateOfDonation);
+    
   
-    if (data.completed || data.pause || currentDate >= lastDateOfDonation) {
+    if (data.completed == true || data.pause == true || currentDate > lastDateOfDonation) {
+      console.log("c")
+      console.log(currentDate > lastDateOfDonation)
+      console.log("pause")
+      console.log(data.pause)
+      console.log("complted")
+      console.log(data.completed)
       return (
         <Button variant="contained" onClick={handleOpen} disabled={true}>
           <p className="text-xl cabin">Donate now</p>

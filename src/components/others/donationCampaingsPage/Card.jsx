@@ -27,7 +27,7 @@ export default function DonationCampaingCard({ data }) {
         <img
           src={data?.petimage}
           alt={data?.petname}
-          className="w-full h-auto"
+          className="w-full h-[25rem]"
         />
         <CardContent>
           <p>
