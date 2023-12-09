@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pet adoption and donation campign
 
-Currently, two official plugins are available:
+![App Screenshot](https://i.ibb.co/NpBcTDY/brave-Wbx6-Zfr-Sj-R.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### This website is about to adopte or donate other pets.
+
+## Key features
+* Signup/Login
+* Admin funtionality
+* User dashboard
+* Pet adopt, donatie other pet
+
+## Technology
+
+
+
+## Tech Stack
+
+**Client:** React, Tailwind css, React-router, Formik, Tanstack Table, Yup, Firebase
+
+**Server:** Node, Express, Mongodb, MVC architecture
+
