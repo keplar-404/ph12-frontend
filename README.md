@@ -17,5 +17,5 @@ https://pet-adoption-donation-frontend.onrender.com/
 
 **Client:** React, Tailwind css, React-router, Formik, Tanstack Table, Yup, Firebase
 
-**Server:** Node, Express, Mongodb, MVC architecture
+**Server:** https://github.com/keplar-404/ph12-backend
 
