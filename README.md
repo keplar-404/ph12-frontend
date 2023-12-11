@@ -13,10 +13,6 @@ https://pet-adoption-donation-frontend.onrender.com/
 * User dashboard
 * Pet adopt, donatie other pet
 
-## Technology
-
-
-
 ## Tech Stack
 
 **Client:** React, Tailwind css, React-router, Formik, Tanstack Table, Yup, Firebase
